@@ -51,7 +51,7 @@ owl.children().each( function( index ) {
 owl.owlCarousel({
   center: true,
   loop: true,
-  items: 1.7,
+  items: 1.8,
 });
 
 $(document).on('click', '.owl-item>div', function() {

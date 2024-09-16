@@ -100,21 +100,21 @@ input[type=submit] {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  width: 45%;
-  top: 28%;
+  width: 40%;
+  top: 33%;
 }
 .img-text-1{
-  width: 35%;
+  width: 40%;
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  top: 69%;
+  top: 68%;
 }
 .md-slider{
   margin-bottom: 4%;
   position: absolute;
   left: 0;
-  top: 49%;
+  top: 47%;
   width: 100%;
 }
 .md-slider .owl-theme .owl-dots .owl-dot:focus{
@@ -144,7 +144,7 @@ input[type=submit] {
 .md-form{
   position: absolute;
   left: 0;
-  top: 73%;
+  top: 71%;
   width: 100%;
 }
 .md-form input[type='text']{
