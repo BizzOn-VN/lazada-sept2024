@@ -134,8 +134,8 @@ input[type=submit] {
     transform: scale3d(1.0, 1.0, 1);
 }
 .md-slider .owl-item .item {
-     -webkit-transform: scale3d(0.8, 0.8, 1);
-    transform: scale3d(0.8, 0.8, 1);
+     -webkit-transform: scale3d(0.7, 0.7, 1);
+    transform: scale3d(0.7, 0.7, 1);
 }
 .md-slider .owl-theme .owl-nav.disabled+.owl-dots{
   margin-top: 3%;
