@@ -1,0 +1,213 @@
+/* layout general
+ -----------------------------------------------------*/
+/* general setting
+ -----------------------------------------------------*/
+* {
+  outline: transparent;
+}
+
+body {
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+   font-size: calc(4px + 1vw);
+  font-family: 'EuclidCircularAVN-Regular';
+  color: #FFF;
+  line-height: 1.5;
+  background: #FFF;
+}
+
+a {
+  color: #111111;
+  -webkit-transition-duration: 0.2s;
+       -o-transition-duration: 0.2s;
+          transition-duration: 0.2s;
+}
+a:hover {
+  text-decoration: none;
+  color: #00D373;
+}
+a:focus {
+  outline: none;
+  text-decoration: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+ul li {
+  list-style: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.4;
+  font-family: 'EuclidCircularAVN-Regular';
+  margin: 0px 0px 0.5rem 0px;
+}
+
+p {
+  margin-bottom: 22px;
+}
+p:last-child {
+  margin-bottom: 0px;
+}
+
+input[type=submit] {
+  border: none;
+  -webkit-transition-duration: 0.2s;
+       -o-transition-duration: 0.2s;
+          transition-duration: 0.2s;
+}
+@font-face {
+  font-family: 'EuclidCircularAVN-Regular';
+  src: url(../fonts/EuclidCircularAVN-Regular/EuclidCircularAVN-Regular.woff2) format("woff2"),
+   url(../fonts/EuclidCircularAVN-Regular/EuclidCircularAVN-Regular.eot) format("eot"),
+    url(../fonts/EuclidCircularAVN-Regular/EuclidCircularAVN-Regular.ttf) format("ttf"),
+     url(../fonts/EuclidCircularAVN-Regular/EuclidCircularAVN-Regular.woff) format("woff"); }
+@font-face {
+  font-family: 'EuclidCircularAVN-Bold';
+  src: url(../fonts/EuclidCircularAVN-Bold/EuclidCircularAVN-Bold.woff2) format("woff2"),
+   url(../fonts/EuclidCircularAVN-Bold/EuclidCircularAVN-Bold.eot) format("eot"),
+    url(../fonts/EuclidCircularAVN-Bold/EuclidCircularAVN-Bold.ttf) format("ttf"),
+     url(../fonts/EuclidCircularAVN-Bold/EuclidCircularAVN-Bold.woff) format("woff"); }
+@font-face {
+  font-family: 'EuclidCircularAVN-Light';
+  src: url(../fonts/EuclidCircularAVN-Light/EuclidCircularAVN-Light.woff2) format("woff2"),
+   url(../fonts/EuclidCircularAVN-Light/EuclidCircularAVN-Light.eot) format("eot"),
+    url(../fonts/EuclidCircularAVN-Light/EuclidCircularAVN-Light.ttf) format("ttf"),
+     url(../fonts/EuclidCircularAVN-Light/EuclidCircularAVN-Light.woff) format("woff"); }
+
+.page-main{
+  position: relative;
+}
+.bg-main{
+  width: 100%;
+  height: auto;
+ /* position: absolute;
+  left: 0;
+  top: 0;*/
+  z-index: -1;
+}
+.banner{
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  margin-bottom: 10px;
+}
+.img-2{
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 57%;
+  top: 28%;
+}
+.img-text-1{
+  width: 47%;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 69%;
+}
+.md-slider{
+  margin-bottom: 4%;
+  position: absolute;
+  left: 0;
+  top: 49%;
+  width: 100%;
+}
+.md-slider .owl-theme .owl-dots .owl-dot:focus{
+  outline: none;
+}
+.md-slider .owl-theme .owl-dots .owl-dot span{
+  background: #ff99c3;
+  margin: 4px;
+}
+.md-slider .owl-theme .owl-dots .owl-dot.active span{
+  background: #FFF;
+  width: 15px;
+  height: 15px;
+}
+.md-slider .owl-item.center .item {
+    -webkit-transform: scale3d(1.0, 1.0, 1);
+    transform: scale3d(1.0, 1.0, 1);
+}
+.md-slider .owl-item .item {
+     -webkit-transform: scale3d(0.8, 0.8, 1);
+    transform: scale3d(0.8, 0.8, 1);
+}
+.md-slider .owl-theme .owl-nav.disabled+.owl-dots{
+  margin-top: 3%;
+}
+.md-form{
+  position: absolute;
+  left: 0;
+  top: 73%;
+  width: 100%;
+}
+.md-form input[type='text']{
+  width: 60%;
+  display: table;
+  margin: 0 auto;
+  border-radius: 20px;
+  border: 1px solid #FFF;
+  padding: 10px 20px;
+  background: transparent;
+  color: #FFF;
+}
+.md-form input[type='text']::placeholder{
+  color: #FFF;
+  font-style: italic;
+
+}
+.md-form input[type='button']{
+  background: #e6eaed;
+  border-radius: 20px;
+  padding: 8px 0px;
+  display: table;
+  margin: 0 auto;
+  line-height: 1;
+  font-family: 'EuclidCircularAVN-Bold';
+  font-style: italic;
+  margin-top: 30px;
+  width: 15%;
+  text-align: center;
+  box-shadow: -2px -2px 3px 1px rgba(255, 255, 255, 1);
+  border: none;
+  color: #ff3366;
+ 
+}
+.md-text{
+  position: absolute;
+  right: 2%;
+  bottom: 1%;
+  text-align: right;
+  font-style: italic;
+}
+.md-desktop{
+  display: block;
+}
+.md-mobile{
+  display: none;
+}
+@media screen and (max-width: 767px){
+  .md-desktop{
+    display: none;
+  }
+  .md-mobile{
+    display: block;
+  }
+  .page-main{
+    height: 100vh;
+  }
+  .bg-main{
+    height: 100%;
+  }
+  .img-2{
+    width: 70%;
+  }
+  .img-text-1{
+    width: 60%;
+  }
+}
