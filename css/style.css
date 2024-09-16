@@ -206,17 +206,20 @@ input[type=submit] {
   }
   .img-2{
     width: 60%;
-    top: 32%;
+    top: 29%;
   }
   .img-text-1{
     width: 50%;
-    top: 74%;
+    top: 67%;
+  }
+  .md-slider .owl-theme .owl-nav.disabled+.owl-dots{
+    margin-top: 1%;
   }
   .md-slider{
-    top: 53%;
+    top: 49%;
   }
   .md-form{
-    top: 78%;
+    top: 72%;
   }
   .md-form input[type='text']{
     width: 55%;
