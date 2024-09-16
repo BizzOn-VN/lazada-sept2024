@@ -153,7 +153,7 @@ input[type=submit] {
   margin: 0 auto;
   border-radius: 20px;
   border: 1px solid #FFF;
-  padding: 10px 20px;
+  padding: 5px 20px;
   background: transparent;
   color: #FFF;
 }
@@ -165,13 +165,13 @@ input[type=submit] {
 .md-form input[type='button']{
   background: #e6eaed;
   border-radius: 20px;
-  padding: 8px 0px;
+  padding: 6px 0px;
   display: table;
   margin: 0 auto;
   line-height: 1;
   font-family: 'EuclidCircularAVN-Bold';
   font-style: italic;
-  margin-top: 30px;
+  margin-top: 3%;
   width: 15%;
   text-align: center;
   box-shadow: -2px -2px 3px 1px rgba(255, 255, 255, 1);
