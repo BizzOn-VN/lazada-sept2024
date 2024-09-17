@@ -147,7 +147,7 @@ input[type=submit] {
   top: 75%;
   width: 100%;
 }
-.md-form input[type='text']{
+.md-form input[type='email']{
   width: 35%;
   display: table;
   margin: 0 auto;
@@ -157,7 +157,7 @@ input[type=submit] {
   background: transparent;
   color: #FFF;
 }
-.md-form input[type='text']::placeholder{
+.md-form input[type='email']::placeholder{
   color: #FFF;
   font-style: italic;
 
@@ -223,11 +223,11 @@ input[type=submit] {
   .md-form{
     top: 73%;
   }
-  .md-form input[type='text']{
+  .md-form input[type='email']{
     width: 55%;
      padding: 5px 10px;
   }
-  .md-form input[type='text']::placeholder{
+  .md-form input[type='email']::placeholder{
     font-size: calc(4px + 1vw);
 
   }
@@ -240,10 +240,10 @@ input[type=submit] {
 }
 
 @media screen and (min-width: 1400px){
-  .md-form input[type='text']{
+  .md-form input[type='email']{
     width: 32.5%;
   }
-  .md-form input[type='text']::placeholder{
+  .md-form input[type='email']::placeholder{
     font-size: calc(5px + 1vw);
 
   }
