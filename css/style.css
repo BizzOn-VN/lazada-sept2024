@@ -198,19 +198,27 @@ input[type=submit] {
   .md-mobile{
     display: block;
   }
+  body{
+    min-height: 100vh;
+  /* mobile viewport bug fix */
+  min-height: -webkit-fill-available;
+  }
+  html{
+    height: -webkit-fill-available;
+  }
   .page-main{
-    height: 90vh;
+    height: 100vh;
   }
   .bg-main{
     height: 100%;
   }
   .img-2{
     width: 60%;
-    top: 29%;
+    top: 30%;
   }
   .img-text-1{
     width: 50%;
-    top: 67%;
+    top: 69%;
   }
   .md-slider .owl-theme .owl-nav.disabled+.owl-dots{
     margin-top: 1%;
@@ -219,7 +227,7 @@ input[type=submit] {
     top: 49%;
   }
   .md-form{
-    top: 72%;
+    top: 73%;
   }
   .md-form input[type='text']{
     width: 55%;
