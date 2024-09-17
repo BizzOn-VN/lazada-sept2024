@@ -184,6 +184,9 @@ input[type=submit] {
   text-align: right;
   font-style: italic;
 }
+.md-text a{
+  color: #FFF;
+}
 .md-desktop{
   display: block;
 }
