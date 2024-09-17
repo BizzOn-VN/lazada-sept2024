@@ -198,16 +198,8 @@ input[type=submit] {
   .md-mobile{
     display: block;
   }
-  body{
-    min-height: 100vh;
-  /* mobile viewport bug fix */
-  min-height: -webkit-fill-available;
-  }
-  html{
-    height: -webkit-fill-available;
-  }
   .page-main{
-    height: 100vh;
+    height: 100%;
   }
   .bg-main{
     height: 100%;
@@ -241,5 +233,15 @@ input[type=submit] {
     margin-top: 10px;
     width: 15%;
     padding: 4px 0px;
+  }
+  body {
+    height: 100vh;
+  }
+}
+
+
+@supports (-webkit-touch-callout: none) {
+  body {
+    height: -webkit-fill-available;
   }
 }
