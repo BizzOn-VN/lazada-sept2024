@@ -234,15 +234,7 @@ input[type=submit] {
     width: 15%;
     padding: 4px 0px;
   }
-  body {
-    height: calc(100vh + 20px);
-  }
+
 }
 
 
-@supports (-webkit-touch-callout: none) {
-  body {
-    height: -webkit-fill-available;
-
-  }
-}
