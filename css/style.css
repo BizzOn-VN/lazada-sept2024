@@ -207,21 +207,21 @@ input[type=submit] {
     height: 100%;
   }
   .img-2{
-    width: 60%;
-    top: 30%;
+    width: 55%;
+    top: 33%;
   }
   .img-text-1{
     width: 50%;
-    top: 69%;
+    top: 73%;
   }
   .md-slider .owl-theme .owl-nav.disabled+.owl-dots{
     margin-top: 1%;
   }
   .md-slider{
-    top: 49%;
+    top: 52%;
   }
   .md-form{
-    top: 73%;
+    top: 77%;
   }
   .md-form input[type='email']{
     width: 55%;
@@ -236,7 +236,15 @@ input[type=submit] {
     width: 15%;
     padding: 4px 0px;
   }
-
+  .md-text{
+    bottom: 3%;
+  }
+  .md-img-4{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 45%;
+  }
 }
 
 @media screen and (min-width: 1400px){
