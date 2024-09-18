@@ -144,7 +144,7 @@ input[type=submit] {
 .md-form{
   position: absolute;
   left: 0;
-  top: 76%;
+  top: 75%;
   width: 100%;
 }
 .md-form input[type='email']{
