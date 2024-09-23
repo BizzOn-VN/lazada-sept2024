@@ -71,4 +71,3 @@ $(document).on('click', '.owl-item>div', function() {
 });
 
 
-$("#popup-end").fancybox({}).trigger('click');
