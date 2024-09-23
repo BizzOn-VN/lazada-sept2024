@@ -193,6 +193,24 @@ input[type=submit] {
 .md-mobile{
   display: none;
 }
+.popup-end{
+  background: #ff0068;
+  font-size: calc(10px + 1vw);
+  border-radius: 5px;
+}
+.popup-end .md-note{
+  font-size: calc(4px + 0.7vw);
+}
+.popup-end .md-note a{
+  color: #FFF;
+  text-decoration: underline;
+}
+.popup-end span{
+  display: block;
+}
+.fancybox-slide--html .fancybox-close-small{
+  display: none;
+}
 @media screen and (max-width: 767px){
   .md-desktop{
     display: none;
@@ -246,6 +264,15 @@ input[type=submit] {
     bottom: 0;
     width: 45%;
   }
+  .popup-end{
+    font-size: calc(15px + 1vw);
+  }
+  .popup-end .md-note{
+    font-size: calc(9px + 0.5vw);
+  }
+  .popup-end span{
+    display: inline;
+  }
 }
 
 @media screen and (min-width: 1400px){
@@ -257,3 +284,4 @@ input[type=submit] {
 
   }
 }
+

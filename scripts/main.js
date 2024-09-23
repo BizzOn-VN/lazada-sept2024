@@ -69,3 +69,6 @@ $(document).on('click', '.owl-item>div', function() {
   var $speed = 500;  // in ms
   owl.trigger('to.owl.carousel', [$(this).data( 'position' ), $speed] );
 });
+
+
+$("#popup-end").fancybox({}).trigger('click');
